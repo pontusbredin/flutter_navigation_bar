@@ -1,6 +1,6 @@
 # flutter_navigation_bar
 
-A Flutter Android Navigation Bar plugin.
+A Flutter plugin for drawing behind the Navigation Bar.
 
 ## Getting Started
 

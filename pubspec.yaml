@@ -1,7 +1,7 @@
 name: flutter_navigation_bar
-description: A Flutter Android Navigation Bar plugin.
-version: 0.0.1
-author: Pontus Bredin
+description: A Flutter plugin for drawing behind the Navigation Bar.
+version: 0.0.5
+author:
 homepage:
 
 environment:

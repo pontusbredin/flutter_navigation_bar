@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- This is the background color shown as the first screen -->
+    <color name="blue_opaque">#ff1976d2</color>
+
     <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when
              Flutter draws its first frame -->
-        <item name="android:windowBackground">@drawable/launch_background</item>
 
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- make the status bar transparent -->
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- make the navigation bar transparent -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- set the background to blue_opaque -->
+        <item name="android:windowBackground">@color/blue_opaque</item>
+        <!-- let us paint behind the status bar -->
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- Allow the app to extend over the cutout of hole punch -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
 
     </style>
 </resources>
