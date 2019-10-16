@@ -150,10 +150,10 @@ class FlutterNavigationBar {
 
   ///This is a singleton
   factory FlutterNavigationBar({State<StatefulWidget> set_to_this}) {
-    if ((_singleton._stateWidget == null) && (set_to_this != null)) {
+//    if ((_singleton._stateWidget == null) && (set_to_this != null)) {
       _singleton._stateWidget = set_to_this;
       _singleton._context = set_to_this.context;
-    }
+//    }
     if (_singleton._flutterNavigationBarNotification == null) {
       _singleton._flutterNavigationBarNotification = FlutterNavigationBarNotification()..addNewListener(
         onChange: (navigationBarInfo){

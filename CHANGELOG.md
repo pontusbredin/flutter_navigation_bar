@@ -14,3 +14,6 @@ Flags are set on init.
 Converted to Kotlin and Swift.
 Solved the problem with a transparent Navigation Bar (full screen) and still allowing for the use of safe areas that work with input.
 Added support for equal width sides in landscape.
+
+## 0.0.6
+Changed so that you can set any widget at any time and get the changes.
