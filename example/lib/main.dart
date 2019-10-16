@@ -1,59 +1,10 @@
-//import 'package:flutter/material.dart';
-//import 'dart:async';
-//
-//import 'package:flutter/services.dart';
-//import 'package:flutter_navigation_bar/flutter_navigation_bar.dart';
-//
-//void main() => runApp(MyApp());
-//
-//class MyApp extends StatefulWidget {
-//  @override
-//  _MyAppState createState() => _MyAppState();
-//}
-//
-//class _MyAppState extends State<MyApp> {
-//
-//  @override
-//  void initState() {
-//    super.initState();
-//    NavigationBarInfoSingleton(set_to_this: this);
-//  }
-//
-//  @override
-//  Widget build(BuildContext context) {
-//    return MaterialApp(
-//      home: Scaffold(
-//        appBar: AppBar(
-//          title: const Text('Plugin example app'),
-//        ),
-//        body: Center(
-//          child: Text('Running on: \n'),
-//        ),
-//      ),
-//    );
-//  }
-//}
-
-
-import 'dart:async';
-
-//import 'dart:html';
-import 'dart:io';
 import 'dart:math';
-//import 'dart:ui' as ui;
-
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-//import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 import 'package:flutter_navigation_bar/flutter_navigation_bar.dart';
-//import 'package:keyboard_visibility/keyboard_visibility.dart';
-
-//import 'custom_layout.dart';
-
-//import 'appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -82,24 +33,10 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   ScrollController _scrollController;
   ScrollController _dateTimeController;
-//  KeyboardVisibilityNotification _keyboardVisibilityNotification;
 
   bool dateTimeExpanded = false;
 
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-
-  List<FocusNode> _focusNodes;
-
-//  SystemBarsInfo _systemBarInfo = SystemBarsInfo(false, 0.0, 0.0, 0.0, 0.0);
-
-//  int doChange(SystemBarsInfo systemBarsInfo) {
-////    print(systemBarsInfo);
-//    _systemBarInfo = systemBarsInfo;
-////    FlutterSystemBars.setNoLimits;
-//    setState(() {
-//    });
-//    return 0;
-//  }
 
   @override
   void initState() {
@@ -107,36 +44,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
     FlutterNavigationBar(set_to_this: this);
 
-    _focusNodes = List.generate(6, (index) {
-//      FocusNode result = FocusNode();
-//      result.addListener(() {
-//        if (result.hasFocus) {
-////          FlutterSystemBars.setLimits;
-//        }
-//      });
-//      return result;
-      return null;
-    });
-
     _scrollController = ScrollController();
     _dateTimeController = ScrollController();
 
     WidgetsBinding.instance.renderView.automaticSystemUiAdjustment = false;
-
-//    SystemChrome.setSystemUIOverlayStyle(
-//      SystemUiOverlayStyle(
-////        statusBarColor: Colors.transparent,
-////        statusBarColor: Colors.blue.shade700,
-////        statusBarIconBrightness: Brightness.dark,
-//        statusBarBrightness: Brightness.dark,
-//        statusBarIconBrightness: Brightness.light,
-////        statusBarBrightness: Brightness.light,
-////        systemNavigationBarColor: Colors.blue.shade700,
-////        systemNavigationBarColor: Colors.transparent,
-//        systemNavigationBarIconBrightness: Brightness.light,
-////        systemNavigationBarIconBrightness: Brightness.dark,
-//      ),
-//    );
 
   }
 
@@ -156,11 +67,6 @@ class _MyHomePageState extends State<MyHomePage> {
           left: 0,
           child: Scaffold(
             extendBody: false,
-//      bottomNavigationBar: Container(
-//        color: Colors.blue.withAlpha(50),
-//        height: 48,
-//        width: 10,
-//      ),
             body: CupertinoPageScaffold(
               child: CustomScrollView(
                 controller: _scrollController,
@@ -185,7 +91,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                 children: <Widget>[
                                   const SizedBox(height: 24.0),
                                   TextFormField(
-                                    focusNode: _focusNodes[0],
                                     cursorColor: Colors.red,
                                     textCapitalization: TextCapitalization.words,
                                     decoration: const InputDecoration(
@@ -198,7 +103,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                   ),
                                   const SizedBox(height: 24.0),
                                   TextFormField(
-                                    focusNode: _focusNodes[1],
                                     decoration: const InputDecoration(
                                       border: UnderlineInputBorder(),
                                       filled: true,
@@ -211,7 +115,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                   ),
                                   const SizedBox(height: 24.0),
                                   TextFormField(
-                                    focusNode: _focusNodes[2],
                                     decoration: const InputDecoration(
                                       border: UnderlineInputBorder(),
                                       filled: true,
@@ -223,7 +126,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                   ),
                                   const SizedBox(height: 24.0),
                                   TextFormField(
-                                    focusNode: _focusNodes[3],
                                     decoration: const InputDecoration(
                                       border: OutlineInputBorder(),
                                       hintText: 'Tell us about yourself (e.g., write down what you do or what hobbies you have)',
@@ -234,7 +136,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                   ),
                                   const SizedBox(height: 24.0),
                                   TextFormField(
-                                    focusNode: _focusNodes[4],
                                     keyboardType: TextInputType.number,
                                     decoration: const InputDecoration(
                                       border: OutlineInputBorder(),

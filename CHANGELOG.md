@@ -17,3 +17,6 @@ Added support for equal width sides in landscape.
 
 ## 0.0.6
 Changed so that you can set any widget at any time and get the changes.
+
+## 0.0.7
+0.0.6 never got published!?
