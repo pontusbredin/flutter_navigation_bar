@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
+
 /// Event subscription class
 class FlutterNavigationBarSubscriber {
   /// Called when a layout change event occurs

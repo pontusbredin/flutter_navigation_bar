@@ -19,6 +19,7 @@ import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 import io.flutter.plugin.platform.PlatformPlugin
 
+
 class FlutterNavigationBarPlugin(private val activity: Activity) : MethodCallHandler, EventChannel.StreamHandler, Application.ActivityLifecycleCallbacks {
 
   internal var hasSoftwareNavigationBar: Boolean = false
