@@ -23,3 +23,6 @@ Changed so that you can set any widget at any time and get the changes.
 
 ## 0.0.8
 Only worked on the first page. Now works on all pages.
+
+## 0.0.9
+Multi page problem fix.
