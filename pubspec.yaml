@@ -1,6 +1,6 @@
 name: flutter_navigation_bar
 description: A Flutter plugin for drawing behind the Navigation Bar.
-version: 0.0.7
+version: 0.0.8
 author: Pontus Bredin <pontus@qmion.com>
 homepage: https://github.com/pontusbredin/flutter_navigation_bar
 

@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -159,16 +160,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                   const SizedBox(height: 24.0),
                                   Center(
                                     child: RaisedButton(
-                                      child: const Text('Subscribe'),
+                                      child: const Text('Next page'),
                                       onPressed: () {
-                                      },
-                                    ),
-                                  ),
-                                  const SizedBox(height: 24.0),
-                                  Center(
-                                    child: RaisedButton(
-                                      child: const Text('SUBMIT'),
-                                      onPressed: () {
+                                        Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) =>  SecondRoute()));
                                       },
                                     ),
                                   ),
@@ -373,4 +367,97 @@ class MySliverAppBar extends SliverPersistentHeaderDelegate {
 
   @override
   bool shouldRebuild(SliverPersistentHeaderDelegate oldDelegate) => true;
+}
+
+class SecondRoute extends StatefulWidget {
+
+  @override
+  _SecondRouteState createState() => _SecondRouteState();
+}
+
+class _SecondRouteState extends State<SecondRoute> {
+
+  @override
+  void initState() {
+    super.initState();
+
+    FlutterNavigationBar(set_to_this: this);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: <Widget>[
+        Positioned.fill(
+          child: Scaffold(
+            appBar: AppBar(
+              title: Text("Second Route"),
+            ),
+            body: Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text(FlutterNavigationBar().navigationBarHeight.toString(),
+                    style: Theme.of(context).textTheme.caption,
+                  ),
+                  RaisedButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Text('Go back!'),
+                  ),
+                  TextField(
+
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+        /// Paint the insets
+        Positioned(
+          bottom: 0,
+          width: MediaQuery.of(context).size.width,
+          height: FlutterNavigationBar().navigationBarHeight,
+          child: IgnorePointer(
+            child: Container(
+              color: Colors.red.withAlpha(50),
+            ),
+          ),
+        ),
+        Positioned(
+          top: 0,
+          width: MediaQuery.of(context).size.width,
+          height: FlutterNavigationBar().statusBarHeight,
+          child: IgnorePointer(
+            child: Container(
+              color: Colors.lightGreenAccent.withAlpha(50),
+            ),
+          ),
+        ),
+        Positioned(
+          top: FlutterNavigationBar().statusBarHeight,
+          right: 0,
+          width: FlutterNavigationBar().navigationBarWidthRight,
+          height: MediaQuery.of(context).size.height-FlutterNavigationBar().navigationBarHeight-FlutterNavigationBar().statusBarHeight,
+          child: IgnorePointer(
+            child: Container(
+              color: Colors.green.withAlpha(50),
+            ),
+          ),
+        ),
+        Positioned(
+          top: FlutterNavigationBar().statusBarHeight,
+          left: 0,
+          width: FlutterNavigationBar().navigationBarWidthLeft,
+          height: MediaQuery.of(context).size.height-FlutterNavigationBar().navigationBarHeight-FlutterNavigationBar().statusBarHeight,
+          child: IgnorePointer(
+            child: Container(
+              color: Colors.blue.withAlpha(050),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
 }
