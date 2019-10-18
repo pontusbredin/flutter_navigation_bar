@@ -26,3 +26,6 @@ Only worked on the first page. Now works on all pages.
 
 ## 0.0.9
 Multi page problem fix.
+
+## 0.1.0
+Min height for detection of Software Navigation Bar is 16.
