@@ -119,13 +119,13 @@ class FlutterNavigationBarPlugin(private val activity: Activity) : MethodCallHan
 
                     val windowInsets = activity.getWindow().getDecorView().getRootWindowInsets().consumeSystemWindowInsets()
                     var hasChanged = false
-                    hasChanged = hasChanged or (hasSoftwareNavigationBar != (insets.systemWindowInsetBottom > 0))
+                    hasChanged = hasChanged or (hasSoftwareNavigationBar != (insets.systemWindowInsetBottom > 64))
                     hasChanged = hasChanged or (statusBarHeight != insets.systemWindowInsetTop.toDouble())
                     hasChanged = hasChanged or (navigationBarHeight != insets.systemWindowInsetBottom.toDouble())
                     hasChanged = hasChanged or (navigationBarWidthLeft != insets.systemWindowInsetLeft.toDouble())
                     hasChanged = hasChanged or (navigationBarWidthRight != insets.systemWindowInsetRight.toDouble())
 
-                    hasSoftwareNavigationBar = (insets.systemWindowInsetBottom > 0)
+                    hasSoftwareNavigationBar = (insets.systemWindowInsetBottom > 64)
                     statusBarHeight = insets.systemWindowInsetTop.toDouble()
                     navigationBarHeight = insets.systemWindowInsetBottom.toDouble()
                     navigationBarWidthLeft = insets.systemWindowInsetLeft.toDouble()

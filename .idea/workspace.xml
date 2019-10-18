@@ -12,10 +12,8 @@
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/flutter_navigation_bar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/flutter_navigation_bar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flutter_navigation_bar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_navigation_bar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -37,14 +35,14 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="001977a575c15e" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="144">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="162">
+              <caret line="203" column="55" lean-forward="true" selection-start-line="203" selection-start-column="55" selection-end-line="203" selection-end-column="55" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -74,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -82,29 +80,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/flutter_navigation_bar.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="220" column="106" selection-start-line="220" selection-start-column="106" selection-end-line="220" selection-end-column="106" />
+            <state relative-caret-position="268">
+              <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt">
+        <entry file="file://$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="241" selection-start-line="241" selection-end-line="241" />
-              <folding>
-                <element signature="e#42#779#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="121" column="112" selection-start-line="121" selection-start-column="112" selection-end-line="121" selection-end-column="112" />
             </state>
           </provider>
         </entry>
@@ -142,6 +128,7 @@
       <find>setupForInsets</find>
       <find>submit</find>
       <find>submi</find>
+      <find>hasSoftwareNavigationBar</find>
     </findStrings>
     <replaceStrings>
       <replace>FlutterNavigationBarPlugin</replace>
@@ -157,7 +144,7 @@
       </list>
     </option>
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,10 +162,10 @@
         <option value="$PROJECT_DIR$/example/lib/nextpage.dart" />
         <option value="$PROJECT_DIR$/lib/flutter_navigation_bar.dart" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
+        <option value="$PROJECT_DIR$/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt" />
+        <option value="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt" />
-        <option value="$PROJECT_DIR$/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt" />
       </list>
     </option>
   </component>
@@ -194,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,8 +203,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,9 +317,9 @@
     <frame x="-1920" y="273" width="1920" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49793673" visible="true" weight="0.25239617" />
       <window_info id="Captures" order="1" side_tool="true" />
-      <window_info id="Structure" order="2" sideWeight="0.5006878" side_tool="true" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="2" sideWeight="0.5020633" side_tool="true" visible="true" weight="0.25239617" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="Build Variants" order="5" side_tool="true" />
@@ -341,10 +328,10 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3299539" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.3299539" />
-      <window_info active="true" anchor="bottom" id="TODO" order="2" visible="true" weight="0.3299539" />
+      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49946752" weight="0.3299539" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.3299539" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49946752" weight="0.3299539" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" sideWeight="0.49946752" visible="true" weight="0.3299539" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.3299539" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.3299539" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" sideWeight="0.5005325" side_tool="true" weight="0.3299539" />
@@ -377,6 +364,15 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>FlutterNavigationBar()</expression-string>
+        <language-id>Dart</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/development/flutter/bin/cache/artifacts/engine/android-arm/flutter.jar!/io/flutter/plugin/common/MethodChannel.class">
@@ -555,17 +551,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/nextpage.dart" />
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+    <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="459">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+          <folding>
+            <element signature="e#42#779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="121" column="112" selection-start-line="121" selection-start-column="112" selection-end-line="121" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/flutter_navigation_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="162">
+          <caret line="203" column="55" lean-forward="true" selection-start-line="203" selection-start-column="55" selection-end-line="203" selection-end-column="55" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -579,34 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/flutter_navigation_bar.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-          <folding>
-            <element signature="e#42#779#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_navigation_bar/android/src/main/kotlin/com/qmion/flutter_navigation_bar/FlutterNavigationBarPlugin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="220" column="106" selection-start-line="220" selection-start-column="106" selection-end-line="220" selection-end-column="106" />
+        <state relative-caret-position="144">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
